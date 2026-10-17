@@ -8,7 +8,7 @@ First off, thank you for considering contributing to CineLogic! Whether you're a
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/cinelogic.git
+   git clone https://github.com/Rizsaurav/CineLogic.git
    cd cinelogic
    ```
 
