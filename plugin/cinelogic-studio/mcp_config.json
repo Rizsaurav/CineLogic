@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "cinelogic-studio": {
+      "command": "python3",
+      "args": [
+        "${workspaceRoot}/mcp/server.py"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    },
+    "cinelogic-motion": {
+      "command": "python3",
+      "args": [
+        "${workspaceRoot}/mcp/image_motion_server.py"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  }
+}
