@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  # Run the full intensive real-world test suite inside Docker
+  test:
+    build: .
+    volumes:
+      - .:/app
+    command: python3 tests/run_intensive_tests.py
+
+  # Run the CineLogic Studio MCP Server over stdio
+  studio-mcp:
+    build: .
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/app
+    command: python3 mcp/server.py
+
+  # Run the CineLogic Zero-Diffusion Motion MCP Server
+  motion-mcp:
+    build: .
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/app
+    command: python3 mcp/image_motion_server.py
