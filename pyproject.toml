@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cinelogic"
+version = "1.0.0"
+description = "Deterministic AI Cinematography, Motion Grammar, and Signal-Processing Quality Engine"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Saurav Rijal" }
+]
+keywords = [
+    "cinematography",
+    "video-systems",
+    "ai-video",
+    "motion-design",
+    "mcp",
+    "model-context-protocol",
+    "signal-processing",
+    "fourier-analysis"
+]
+dependencies = [
+    "numpy>=1.24.0",
+    "pillow>=10.0.0"
+]
+
+[project.scripts]
+cinelogic-studio = "mcp.server:main"
+cinelogic-motion = "mcp.image_motion_server:main"
+
+[tool.setuptools]
+packages = ["mcp"]
