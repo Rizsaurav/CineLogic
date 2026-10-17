@@ -121,7 +121,7 @@ CineLogic bifurcates video generation into two complementary tiers to maximize v
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/cinelogic.git
+git clone https://github.com/Rizsaurav/CineLogic.git
 cd cinelogic
 
 # 2. Install dependencies (Requires FFmpeg installed)
@@ -346,6 +346,18 @@ Contributions from systems engineers, computer vision researchers, and AI filmma
 5. Open a Pull Request! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for style conventions.
 
 ---
+
+## 👤 Author & Systems Architect
+
+**Saurav Rijal**  
+*Applied AI Research & Video Systems Engineer*  
+
+- **GitHub**: [@Rizsaurav](https://github.com/Rizsaurav)
+- **Technical Portfolio**: [Executive Case Study & Systems Autopsy](docs/RECRUITER_PORTFOLIO_CASE_STUDY.md)
+- **Architectural Deep Dive**: [Mathematical Formulation & Signal Processing Guide](docs/ARCHITECTURAL_DEEP_DIVE.md)
+- **Core Domains**: Deterministic Video Pipelines, 2D FFT Spatial Signal Processing, Model Context Protocol (MCP) Infrastructure, Multi-Agent Creative Orchestration, and Zero-GPU Motion Synthesis.
+
+> *"The future of AI video is not about burning H100 clusters on stochastic prompt lottery. It is about building deterministic engineering guardrails that make cinematic excellence reproducible, mathematically verifiable, and cost-optimal."*
 
 ## 📄 License
 

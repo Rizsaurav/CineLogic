@@ -33,3 +33,9 @@ cinelogic-motion = "mcp.image_motion_server:main"
 
 [tool.setuptools]
 packages = ["mcp"]
+
+[project.urls]
+Homepage = "https://github.com/Rizsaurav/CineLogic"
+Documentation = "https://github.com/Rizsaurav/CineLogic#readme"
+Repository = "https://github.com/Rizsaurav/CineLogic.git"
+"Bug Tracker" = "https://github.com/Rizsaurav/CineLogic/issues"
